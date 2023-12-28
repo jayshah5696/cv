@@ -3,7 +3,7 @@ import AmbitLogo from "../images/logos/ambit.png";
 import BarepapersLogo from "../images/logos/barepapers.svg";
 import BimLogo from "../images/logos/bim.png";
 import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
+import ClevertechLogo from "../images/logos/ensemble-energy.png";
 import EvercastLogo from "../images/logos/evercast.svg";
 import Howdy from "../images/logos/howdy.png";
 import JarockiMeLogo from "../images/logos/jarocki.svg";
@@ -11,76 +11,88 @@ import JojoMobileLogo from "../images/logos/jojomobile.png";
 import MonitoLogo from "../images/logos/monito.svg";
 import MobileVikingsLogo from "../images/logos/mv.png";
 import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
+import ParabolLogo from "../images/logos/sparkcognition.svg";
 import TastyCloudLogo from "../images/logos/tastycloud.png";
 import YearProgressLogo from "../images/logos/yearprogress.svg";
 import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
+import { HFcon } from "@/components/icons/HuggingFace";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Jay Shah",
+  initials: "JS",
+  location: "SanFranscio",
+  locationLink: "https://www.google.com/maps/place/SanFranscico",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "I'm a seasoned Data Scientist, passionate about turning numbers into narratives and algorithms into actions.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I specialize in AI and predictive analytics, utilizing Python and R for innovative projects, particularly in wind energy and customer relationship prediction. My goal is to uncover hidden stories in data and drive forward-thinking solutions in the field of data science.",
+  avatarUrl: "https://github.com/jayshah5696/jayshah5696.github.io/blob/29dc4ae4340873d5fbba3de46684db963841bc76/assets/images/Profile.jpg",
+  personalWebsiteUrl: "https://jayshah5696.github.io/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "jayshah5696@gmail.com",
+    tel: "+19792133271",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/jayshah5696",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/jayshah5696/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/jayjshah",
         icon: XIcon,
+      },
+      {
+        name: "HF",
+        url: "https://huggingface.co/jayshah5696",
+        icon: HFcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Texas A&M University",
+      degree: "Master's Degree in Industrial and Systems Engineering",
+      start: "2017",
+      end: "2019",
     },
+    {
+      school: "Gujarat State University",
+      degree: "Bachelor's Degree in Mechanical Engineering",
+      start: "2013",
+      end: "2017",
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "SparkCognition",
+      link: "https://www.sparkcognition.com/",
+      badges: ["Menlo Park"],
+      title: "Data Scientist III",
       logo: ParabolLogo,
       start: "2021",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Advanced AI integration, particularly in NLP; led Large Language Model optimization; improved AI-driven solutions; streamlined internal tools with AI. eveloped AI solutions for operational optimization, future event prediction, and asset protection; innovated with scalable, impactful technologies.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Ensemble Energy",
+      link: "https://ensembleenergy.ai",
+      badges: ["Palo Alto"],
+      title: "Data Scientist",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2019",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Combined machine learning and AI for efficient clean energy; implemented Energy.ML for predictive maintenance and operational efficiency.",
     },
     {
       company: "Jojo Mobile",
