@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import StreamLensLogo from "../images/logos/StreamLensLogo.png";
 import PowerCurveLogo from "../images/logos/PowerCurveLogo.png";
 import MercedesLogo from "../images/logos/MercedesLogo.png";
