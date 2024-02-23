@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   location: "SanFranscio",
   locationLink: "https://www.google.com/maps/place/SanFranscico",
   about:
-    "I am a passionate Data Scientist with a rich experience spanning over 5 years. My journey in the field is marked by a deep commitment to developing AI applications and tools that drive change and innovation.",
+    "Data Scientist specializing in AI, with a deep commitment to impactful innovations and social contributions.",
   summary:
     "I am an experienced Data Scientist with over 5 years of experience, focusing on AI innovations for renewable energy. My expertise in predictive maintenance covers wind, solar, and energy storage systems. Beyond technical pursuits, I actively contribute to DataKind’s social impact projects, merging technical expertise with meaningful contributions. With a Master’s in Industrial Systems Engineering, my skill set spans from data engineering to AI, where I lead impactful data science projects.",
   avatarUrl: "https://github.com/jayshah5696/jayshah5696.github.io/blob/29dc4ae4340873d5fbba3de46684db963841bc76/assets/images/Profile.jpg",
