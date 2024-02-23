@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   about:
     "I am an enthusiast and self-taught Data Scientist with over 5 years of experience. Crafting AI applictions and tools",
   summary:
-    "As a Senior Data Scientist, I am forever curious and forever learning. I specialize in transforming data into decisions, using AI and predictive analytics. I utilize Python and R for innovative projects, particularly in wind energy and customer relationship prediction. My goal is to uncover hidden stories in data and drive forward-thinking solutions in the field of data science.",
+    "As a seasoned Data Scientist, I lead AI-driven renewable energy solutions, including predictive maintenance for wind, solar, and storage systems. I am a recent Hackathon winner and an active volunteer in DataKind social service projects, blending innovative problem-solving with social impact. Holding a Master’s in Industrial Systems Engineering, my expertise ranges from data engineering to AI, demonstrating leadership in delivering impactful data science initiatives.",
   avatarUrl: "https://github.com/jayshah5696/jayshah5696.github.io/blob/29dc4ae4340873d5fbba3de46684db963841bc76/assets/images/Profile.jpg",
   personalWebsiteUrl: "https://jayshah5696.github.io/",
   contact: {
