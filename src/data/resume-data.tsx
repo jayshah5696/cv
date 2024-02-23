@@ -138,7 +138,7 @@ export const RESUME_DATA = {
     "Research & Development in Renewable Energy Systems",
     "Machine Learning Model Deployment & Monitoring"
   ],
-  projects: [
+  projects: 
     [
       {
         "title": "StreamLens: Revolutionizing Video Content Interaction with AI",
@@ -203,7 +203,5 @@ export const RESUME_DATA = {
           "href": "https://github.com/jayshah5696/Phase1_Analysis"
         }
       }
-    ]
-    
-      ],
+    ],
 } as const;
