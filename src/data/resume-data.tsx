@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       "logo": "SparkLogo",
       "start": "2021",
       "end": "2021",
-      "description": "Reduced on-boarding time for new Data Scientists from 4 weeks to 1 week by initiating & leading an effort with my team to create onboarding videos & documents. Designed and deployed core wind and solar power forecasting capabilities using techniques of XGBoost Informers and achieved 10% mape improvement over SOTA with faster lead time to deployment. Mentored and guided an offshore team of 2 with providing ml systems principles and designs related strategies."
+      "description": "Designed and deployed core wind and solar power forecasting capabilities using techniques of XGBoost Informers and achieved 10% mape improvement over SOTA with faster lead time to deployment. Mentored and guided an offshore team of 2 with providing ml systems principles and designs related strategies."
     },
     {
       "company": "Ensemble Energy",
@@ -90,7 +90,7 @@ export const RESUME_DATA = {
       "logo": "EnsembleLogo",
       "start": "2019",
       "end": "2021",
-      "description": "Built a predictive maintenance system for wind assets to estimate wind turbine’s remaining useful life (RUL) and to handle & maintain its logistics using ML model utilizing industrial sensor and fault data with 92% accuracy. Developed processes and systems for automated deployment of the models in production with performance tracking using Airflow Docker Serverless Functions Terraform tech on AWS and GCP. Architected real-time data processing (ETL) pipeline for 5 customers and achieved 60% reduction in processing time utilizing multiprocessing pandas dask pipeline in Python on AWS serverless cloud server. Prototyped and productionized statistical tools to provide insight into power production inefficiency and quantify the energy loss."
+      "description": "Built a predictive maintenance system for wind assets to estimate wind turbine’s remaining useful life (RUL).  Developed processes and systems for automated deployment of the models in production with performance tracking using Airflow. Architected real-time data processing (ETL) pipeline for 5 customers and achieved 60% reduction in processing time utilizing multiprocessing pandas dask pipeline in Python on AWS serverless cloud server. Prototyped and productionized statistical tools to provide insight into power production inefficiency and quantify the energy loss."
     },
     {
       "company": "Ensemble Energy",
