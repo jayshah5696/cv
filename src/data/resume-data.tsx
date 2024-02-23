@@ -16,9 +16,9 @@ export const RESUME_DATA = {
   location: "SanFranscio",
   locationLink: "https://www.google.com/maps/place/SanFranscico",
   about:
-    "I'm a seasoned Data Scientist, passionate about turning numbers into narratives and algorithms into actions.",
+    "I am an enthusiast and self-taught Data Scientist with over 5 years of experience. I have led a team of brilliant minds, navigating the vast seas of AI and machine learning. My passion lies not just in technology, but in its potential to transform lives. I aim to make technology as commonplace as a cup of coffee, using data as the magic bean to turn hunches into breakthroughs. My ambition is to leverage data to preempt and solve the grand challenges of our time, whether in greener energy solutions or healthcare breakthroughs. I am always eager to connect with fellow visionaries who share a passion for making a tangible impact with data.",
   summary:
-    "I specialize in AI and predictive analytics, utilizing Python and R for innovative projects, particularly in wind energy and customer relationship prediction. My goal is to uncover hidden stories in data and drive forward-thinking solutions in the field of data science.",
+    "As a Senior Data Scientist, I am forever curious and forever learning. I specialize in transforming data into decisions, using AI and predictive analytics. I utilize Python and R for innovative projects, particularly in wind energy and customer relationship prediction. My goal is to uncover hidden stories in data and drive forward-thinking solutions in the field of data science.",
   avatarUrl: "https://github.com/jayshah5696/jayshah5696.github.io/blob/29dc4ae4340873d5fbba3de46684db963841bc76/assets/images/Profile.jpg",
   personalWebsiteUrl: "https://jayshah5696.github.io/",
   contact: {
