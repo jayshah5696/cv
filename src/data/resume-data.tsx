@@ -1,24 +1,14 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import EnsembleLogo from "../images/logos/ensemble-energy.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import SparkLogo from "../images/logos/sparkcognition.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
+import StreamLensLogo from "../images/logos/StreamLensLogo.png";
+import PowerCurveLogo from "../images/logos/PowerCurveLogo.png";
+import MercedesLogo from "../images/logos/MercedesLogo.png";
+import NYCabDataLogo from "../images/logos/NYCabDataLogo.png";
+import PredictingDrowsinessLogo from "../images/logos/PredictingDrowsinessLogo.png";
+import CustomerRelationshipPredictionLogo from "../images/logos/CustomerRelationshipPredictionLogo.png";
+import Phase1AnalysisLogo from "../images/logos/Phase1AnalysisLogo.png";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
-import { HFcon } from "@/components/icons/HuggingFace";
+import { HuggingFaceIcon } from "@/components/icons/HuggingFace";
 
 export const RESUME_DATA = {
   name: "Jay Shah",
@@ -53,7 +43,7 @@ export const RESUME_DATA = {
       {
         name: "HF",
         url: "https://huggingface.co/jayshah5696",
-        icon: HFcon,
+        icon: HuggingFaceIcon,
       },
     ],
   },
@@ -73,218 +63,147 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "SparkCognition",
-      link: "https://www.sparkcognition.com/",
-      badges: ["Menlo Park"],
-      title: "Data Scientist III",
-      logo: SparkLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Advanced AI integration, particularly in NLP; led Large Language Model optimization; improved AI-driven solutions; streamlined internal tools with AI. eveloped AI solutions for operational optimization, future event prediction, and asset protection; innovated with scalable, impactful technologies.",
+      "company": "SparkCognition",
+      "link": "https://www.sparkcognition.com/",
+      "badges": ["Menlopark, California"],
+      "title": "Data Scientist III",
+      "logo": "SparkLogo",
+      "start": "2022",
+      "end": "Present",
+      "description": "Leading data science endeavor of the renewable product research team to develop and productize analytics capabilities."
     },
     {
-      company: "Ensemble Energy",
-      link: "https://ensembleenergy.ai",
-      badges: ["Palo Alto"],
-      title: "Data Scientist",
-      logo: EnsembleLogo,
-      start: "2019",
-      end: "2021",
-      description:
-        "Combined machine learning and AI for efficient clean energy; implemented Energy.ML for predictive maintenance and operational efficiency.",
+      "company": "SparkCognition",
+      "link": "https://www.sparkcognition.com/",
+      "badges": ["Sunnyvale, California"],
+      "title": "Data Scientist II",
+      "logo": "SparkLogo",
+      "start": "2021",
+      "end": "2021",
+      "description": "Reduced on-boarding time for new Data Scientists from 4 weeks to 1 week by initiating & leading an effort with my team to create onboarding videos & documents. Designed and deployed core wind and solar power forecasting capabilities using techniques of XGBoost Informers and achieved 10% mape improvement over SOTA with faster lead time to deployment. Mentored and guided an offshore team of 2 with providing ml systems principles and designs related strategies."
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+      "company": "Ensemble Energy",
+      "link": "https://www.ensembleenergy.com/",
+      "badges": ["Palo Alto, California"],
+      "title": "Data Scientist",
+      "logo": "EnsembleLogo",
+      "start": "2019",
+      "end": "2021",
+      "description": "Built a predictive maintenance system for wind assets to estimate wind turbine’s remaining useful life (RUL) and to handle & maintain its logistics using ML model utilizing industrial sensor and fault data with 92% accuracy. Developed processes and systems for automated deployment of the models in production with performance tracking using Airflow Docker Serverless Functions Terraform tech on AWS and GCP. Architected real-time data processing (ETL) pipeline for 5 customers and achieved 60% reduction in processing time utilizing multiprocessing pandas dask pipeline in Python on AWS serverless cloud server. Prototyped and productionized statistical tools to provide insight into power production inefficiency and quantify the energy loss."
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      "company": "Ensemble Energy",
+      "link": "https://www.ensembleenergy.com/",
+      "badges": ["Palo Alto, California"],
+      "title": "Data Science Intern",
+      "logo": "EnsembleLogo",
+      "start": "2018",
+      "end": "2018",
+      "description": "Implemented a robust anomaly detection system to predict component failure using GBM for 8 components of the wind turbine. Estimated bearing type and segmented bearing failures based on 10-min signature profile using K-means clustering to perform RCA. Delivered executable insights to customers by performing physics-based statistical data analysis and advanced data visualization utilizing ggplot & matplotlib library in Python that helped to increase 250K $/year in revenue."
     },
-  ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    {
+      "company": "Texas A&M University",
+      "link": "https://www.tamu.edu/",
+      "badges": ["College Station, Texas"],
+      "title": "Graduate Research Assistant",
+      "logo": "ParabolLogo",
+      "start": "2019",
+      "end": "2019",
+      "description": "Researched with Dr. Yu Ding on applying advanced machine learning methods to solve and predict wind energy system failure. Implemented deep learning methods to predict possible power production and downtimes associated with the failures of wind turbine."
+    },
+    {
+      "company": "Utilities and Energy Services",
+      "link": "",
+      "badges": ["College Station, Texas"],
+      "title": "Student Analyst",
+      "logo": "ParabolLogo",
+      "start": "2017",
+      "end": "2018",
+      "description": "Created weather-controlled building baseline regression models for all digitally metered utilities using enterprise energy module. These models are used to monitor consumption across the campus to prevent sensor issues and energy loss. Manipulated Data in SQL to compare baseline modelled consumption with real-time consumption using statistical control limit chart in excel to analyse the average variation related to prediction."
+    }
+  ]
+  ,
+  "skills": [
+    "Data Science & Machine Learning",
+    "Predictive Modeling & Analytics",
+    "Natural Language Processing (NLP)",
+    "Model Optimization & Fine-tuning",
+    "AI-driven Solution Development",
+    "Statistical Analysis & Data Visualization",
+    "Cloud Computing & Serverless Architectures (AWS, GCP)",
+    "Real-time Data Processing & ETL",
+    "Software Development (Python, SQL)",
+    "Project Management & Team Leadership",
+    "Research & Development in Renewable Energy Systems",
+    "Machine Learning Model Deployment & Monitoring"
   ],
   projects: [
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+    [
+      {
+        "title": "StreamLens: Revolutionizing Video Content Interaction with AI",
+        "techStack": ["hackathon","llamaindex","MLX","BentoML","NVIDIA-AI-Endpoints"],
+        "description": "An AI-driven project aimed at transforming video content interaction, leveraging advanced analytics and machine learning. Participated in the RAG-A-THON challenge organized by Llama Index.",
+        "logo": StreamLensLogo,
+        "link": {
+          "href": "https://github.com/rohrao/llamaindex_RAGathon"
+        }
+      },
+      {
+        "title": "PowerCurve Estimation for Wind Energy Farms",
+        "techStack": ["Data Analytics", "Python", "Machine Learning","MLP"],
+        "description": "Collaborated with Texas A&M University to develop models for estimating power curves of wind energy farms, enhancing efficiency and predictive maintenance.",
+        "logo": PowerCurveLogo,
+        "link": {
+          "href": "https://github.com/jayshah5696/Power_Curve_Estimation"
+        }
+      },
+      {
+        "title": "Exploratory Data Analysis of Mercedes Green Manufacturing Challenge",
+        "techStack": ["Data Science", "Python", "Exploratory Data Analysis"],
+        "description": "A project associated with Texas A&M University focusing on analyzing the green manufacturing processes of Mercedes, aiming at improving safety and efficiency.",
+        "logo": MercedesLogo,
+        "link": {
+          "href": "https://github.com/jayshah5696/Kaggle_Mercedes"
+        }
+      },
+      {
+        "title": "Portfolio Analysis on New York Cab Data",
+        "techStack": ["Data Analysis", "Python", "Statistical Modeling"],
+        "description": "Performed comprehensive data analysis on New York cab data to uncover insights and patterns, associated with Texas A&M University.",
+        "logo": NYCabDataLogo,
+        "link": {
+          "href": "https://github.com/jayshah5696/DataOpen-2018https://github.com/jayshah5696/DataOpen-2018"
+        }
+      },
+      {
+        "title": "Predicting Drowsiness Related Lane Departures",
+        "techStack": ["Data Transformation", "Keras"],
+        "description": "A project aimed at predicting lane departures caused by drowsiness using novel feature generation techniques and convolutional neural networks, in collaboration with Texas A&M University. Achieved robust results with a confidence interval of 0.75-0.86 using the Bootstrap significance test.",
+        "logo": PredictingDrowsinessLogo,
+        "link": {
+          "href": "https://jayshah5696.github.io/drowsy_driving/"
+        }
+      },
+      {
+        "title": "Customer Relationship Prediction for a Mobile Network Operator",
+        "techStack": ["CRM", "Data Analytics", "Machine Learning", "Logistic Regression"],
+        "description": "Worked on predicting customer behavior (churn, appetency, up-selling) for Orange, using a wide range of classification techniques to identify the highest AUC for individual problems. The project focused on true positives and direct customer communication strategies.",
+        "logo": CustomerRelationshipPredictionLogo,
+        "link": {
+          "href": "https://github.com/jayshah5696/Crm-Analytics"
+        }
+      },
+      {
+        "title": "Phase 1 Analysis of Multivariate Quality Control Data for an Industrial Forging Process",
+        "techStack": ["Data Analysis", "PCA", "T2 Charts", "M-Cusum Charts", "Minitab"],
+        "description": "Conducted principal component analysis and applied T2 and M-Cusum charts on multivariate data from an industrial forging process, achieving significant data reduction and cleansing. This work was associated with Texas A&M University, focusing on quality control data categorization.",
+        "logo": Phase1AnalysisLogo,
+        "link": {
+          "href": "https://github.com/jayshah5696/Phase1_Analysis"
+        }
+      }
+    ]
+    
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: SparkLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
-  ],
 } as const;
