@@ -5,6 +5,7 @@ import NYCabDataLogo from "../images/logos/NYCabDataLogo.png";
 import PredictingDrowsinessLogo from "../images/logos/PredictingDrowsinessLogo.png";
 import CustomerRelationshipPredictionLogo from "../images/logos/CustomerRelationshipPredictionLogo.png";
 import Phase1AnalysisLogo from "../images/logos/Phase1AnalysisLogo.png";
+import NeuroBuddyLogo from "../images/logos/neuerobuddy.png";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
@@ -140,6 +141,14 @@ export const RESUME_DATA = {
   ],
   projects: 
     [
+      {"title":'NueroBuddy: A Personalized Chatbot',
+      "techStack":["streamlit",'mistral-api','whisper-models'],
+      "description":"A personalized chatbot that provides mental health support and resources to users, leveraging advanced NLP models and AI-driven analytics. The project was developed with Mistral AI and Whisper Models.",
+      "logo": NeuroBuddyLogo,
+      "link": {
+        "href": "https://github.com/jayshah5696/nd-empowerment"
+        },
+      },
       {
         "title": "StreamLens: Revolutionizing Video Content Interaction with AI",
         "techStack": ["hackathon","llamaindex","MLX","BentoML","NVIDIA-AI-Endpoints"],
