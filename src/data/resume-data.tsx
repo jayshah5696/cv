@@ -122,6 +122,16 @@ export const RESUME_DATA = {
       "start": "2017",
       "end": "2018",
       "description": "Created weather-controlled building baseline regression models for all digitally metered utilities using enterprise energy module. These models are used to monitor consumption across the campus to prevent sensor issues and energy loss. Manipulated Data in SQL to compare baseline modelled consumption with real-time consumption using statistical control limit chart in excel to analyse the average variation related to prediction."
+    },
+    {
+    "company":'DataKind',
+    "link": "https://www.datakind.org/",
+    "badges": ["San Francisco, California"],
+    "title":"Data Ambassador",
+    "logo":"DataKindLogo",
+    "start":"2022",
+    "end":"2022",
+    "description":"As a Data Ambassador for DataKind, I played a pivotal role in a collaborative project with John Jay College, developing advanced machine learning models to predict student dropout and delayed graduation. Leveraging Random Forest classifiers, our team crafted and tested over 20 models, ultimately recommending a tailored suite of six models to enable early identification and support for students at risk, significantly contributing to improving college completion rates."
     }
   ]
   ,
