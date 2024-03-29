@@ -36,8 +36,8 @@
   }
 
   .dark {
-    --background: 224 71.4% 4.1%;
-    --foreground: 210 20% 98%;
+    --background: 220 14.3% 15%;
+    --foreground: 0 0% 100%; /* White text for better contrast */
 
     --card: 224 71.4% 4.1%;
     --card-foreground: 210 20% 98%;
@@ -52,7 +52,7 @@
     --secondary-foreground: 210 20% 98%;
 
     --muted: 215 27.9% 16.9%;
-    --muted-foreground: 217.9 10.6% 64.9%;
+    --muted-foreground: 0 0% 100%
 
     --accent: 215 27.9% 16.9%;
     --accent-foreground: 210 20% 98%;
@@ -63,6 +63,8 @@
     --border: 215 27.9% 16.9%;
     --input: 215 27.9% 16.9%;
     --ring: 216 12.2% 83.9%;
+
+    --radius: 0.5rem;
   }
 }
 
@@ -77,4 +79,10 @@
 
 .print-force-new-page {
   page-break-before: always;
+}
+
+@layer utilities {
+  .text-muted-foreground {
+    color: hsl(var(--muted-foreground));
+  }
 }
