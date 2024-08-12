@@ -66,7 +66,7 @@ export const RESUME_DATA = {
     {
       "company": "SparkCognition",
       "link": "https://www.sparkcognition.com/",
-      "badges": ["Menlopark, California"],
+      "badges": ["Pleasanton, California"],
       "title": "Data Scientist III",
       "logo": "SparkLogo",
       "start": "2022",
@@ -151,6 +151,14 @@ export const RESUME_DATA = {
   ],
   projects: 
     [
+      {"title":'Pravāha - Your Local Perplexity-Inspired Search Engine',
+      "techStack":["BM25",'openai-api','tavily-search'],
+      "description":"Pravāha is an AI search assistant that combines local search engine capabilities with advanced Large Language Models (LLMs), inspired by Perplexity.ai.",
+      "logo": NeuroBuddyLogo,
+      "link": { 
+        "href": "https://github.com/jayshah5696/pravah"
+        },
+      },
       {"title":'NueroBuddy: A Personalized Chatbot',
       "techStack":["streamlit",'mistral-api','whisper-models'],
       "description":"A personalized chatbot that provides mental health support and resources to users, leveraging advanced NLP models and AI-driven analytics. The project was developed with Mistral AI and Whisper Models.",
