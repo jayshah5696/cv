@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       "logo": "SparkLogo",
       "start": "2022",
       "end": "Present",
-      "description": "Leading data science endeavor of the renewable product research team to develop and productize analytics capabilities."
+      "description": "Leading data science endeavor of the renewable product research team to develop and productize analytics capabilities.\nSpearheaded the integration of advanced machine learning models to enhance predictive accuracy.\nCollaborated with cross-functional teams to ensure seamless deployment and scalability of data solutions.\nMentored junior data scientists and provided strategic insights to drive project success."
     },
     {
       "company": "SparkCognition",
@@ -81,7 +81,7 @@ export const RESUME_DATA = {
       "logo": "SparkLogo",
       "start": "2021",
       "end": "2021",
-      "description": "Designed and deployed core wind and solar power forecasting capabilities using techniques of XGBoost Informers and achieved 10% mape improvement over SOTA with faster lead time to deployment. Mentored and guided an offshore team of 2 with providing ml systems principles and designs related strategies."
+      "description": "Designed and deployed core wind and solar power forecasting capabilities using techniques of XGBoost Informers.\nAchieved 10% MAPE improvement over SOTA with faster lead time to deployment.\nMentored and guided an offshore team of 2 by providing ML systems principles and design-related strategies."
     },
     {
       "company": "Ensemble Energy",
@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       "logo": "EnsembleLogo",
       "start": "2019",
       "end": "2021",
-      "description": "Built a predictive maintenance system for wind assets to estimate wind turbine’s remaining useful life (RUL).  Developed processes and systems for automated deployment of the models in production with performance tracking using Airflow. Architected real-time data processing (ETL) pipeline for 5 customers and achieved 60% reduction in processing time utilizing multiprocessing pandas dask pipeline in Python on AWS serverless cloud server. Prototyped and productionized statistical tools to provide insight into power production inefficiency and quantify the energy loss."
+      "description": "Built a predictive maintenance system for wind assets to estimate wind turbine’s remaining useful life (RUL).  Developed processes and systems for automated deployment of the models in production with performance tracking using Airflow. \nArchitected real-time data processing (ETL) pipeline for 5 customers and achieved 60% reduction in processing time utilizing multiprocessing pandas dask pipeline in Python on AWS serverless cloud server. \nPrototyped and productionized statistical tools to provide insight into power production inefficiency and quantify the energy loss."
     },
     {
       "company": "Ensemble Energy",
@@ -101,7 +101,7 @@ export const RESUME_DATA = {
       "logo": "EnsembleLogo",
       "start": "2018",
       "end": "2018",
-      "description": "Implemented a robust anomaly detection system to predict component failure using GBM for 8 components of the wind turbine. Estimated bearing type and segmented bearing failures based on 10-min signature profile using K-means clustering to perform RCA. Delivered executable insights to customers by performing physics-based statistical data analysis and advanced data visualization utilizing ggplot & matplotlib library in Python that helped to increase 250K $/year in revenue."
+      "description": "Implemented a robust anomaly detection system to predict component failure using GBM for 8 components of the wind turbine. \nEstimated bearing type and segmented bearing failures based on 10-min signature profile using K-means clustering to perform RCA. \nDelivered executable insights to customers by performing physics-based statistical data analysis and advanced data visualization utilizing ggplot & matplotlib library in Python that helped to increase 250K $/year in revenue."
     },
     {
       "company": "Texas A&M University",
@@ -111,7 +111,7 @@ export const RESUME_DATA = {
       "logo": "ParabolLogo",
       "start": "2019",
       "end": "2019",
-      "description": "Researched with Dr. Yu Ding on applying advanced machine learning methods to solve and predict wind energy system failure. Implemented deep learning methods to predict possible power production and downtimes associated with the failures of wind turbine."
+      "description": "Researched with Dr. Yu Ding on applying advanced machine learning methods to solve and predict wind energy system failure. \nImplemented deep learning methods to predict possible power production and downtimes associated with the failures of wind turbine."
     },
     {
       "company": "Utilities and Energy Services",
@@ -121,7 +121,7 @@ export const RESUME_DATA = {
       "logo": "ParabolLogo",
       "start": "2017",
       "end": "2018",
-      "description": "Created weather-controlled building baseline regression models for all digitally metered utilities using enterprise energy module. These models are used to monitor consumption across the campus to prevent sensor issues and energy loss. Manipulated Data in SQL to compare baseline modelled consumption with real-time consumption using statistical control limit chart in excel to analyse the average variation related to prediction."
+      "description": "Created weather-controlled building baseline regression models for all digitally metered utilities using enterprise energy module. \nThese models are used to monitor consumption across the campus to prevent sensor issues and energy loss. \nManipulated Data in SQL to compare baseline modelled consumption with real-time consumption using statistical control limit chart in excel to analyse the average variation related to prediction."
     },
     {
     "company":'DataKind',
@@ -131,7 +131,7 @@ export const RESUME_DATA = {
     "logo":"DataKindLogo",
     "start":"2022",
     "end":"2022",
-    "description":"As a Data Ambassador for DataKind, I played a pivotal role in a collaborative project with John Jay College, developing advanced machine learning models to predict student dropout and delayed graduation. Leveraging Random Forest classifiers, our team crafted and tested over 20 models, ultimately recommending a tailored suite of six models to enable early identification and support for students at risk, significantly contributing to improving college completion rates."
+    "description":"As a Data Ambassador for DataKind, I played a pivotal role in a collaborative project with John Jay College, developing advanced machine learning models to predict student dropout and delayed graduation. \nLeveraging Random Forest classifiers, our team crafted and tested over 20 models, ultimately recommending a tailored suite of six models to enable early identification and support for students at risk, significantly contributing to improving college completion rates."
     }
   ]
   ,
