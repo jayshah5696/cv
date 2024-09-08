@@ -17,7 +17,7 @@ export const RESUME_DATA = {
   location: "SanFranscio",
   locationLink: "https://www.google.com/maps/place/SanFranscico",
   about:
-    "Data Scientist specializing in AI, with a deep commitment to impactful innovations and social contributions.",
+    "Data Scientist with applied AI skills, dedicated to delivering impactful and scalable solutions.",
   summary:
     "I am an experienced Data Scientist with over 5 years of experience, focusing on AI innovations for renewable energy. My expertise in predictive maintenance covers wind, solar, and energy storage systems. Beyond technical pursuits, I actively contribute to DataKind’s social impact projects, merging technical expertise with meaningful contributions. With a Master’s in Industrial Systems Engineering, my skill set spans from data engineering to AI, where I lead impactful data science projects.",
   avatarUrl: "https://github.com/jayshah5696/jayshah5696.github.io/blob/29dc4ae4340873d5fbba3de46684db963841bc76/assets/images/Profile.jpg",
@@ -136,18 +136,35 @@ export const RESUME_DATA = {
   ]
   ,
   "skills": [
+    // Data Science & Machine Learning
     "Data Science & Machine Learning",
     "Predictive Modeling & Analytics",
     "Natural Language Processing (NLP)",
+    "Deep Learning (TensorFlow, PyTorch)",
     "Model Optimization & Fine-tuning",
     "AI-driven Solution Development",
-    "Statistical Analysis & Data Visualization",
+    
+    // Data Engineering & Cloud
     "Cloud Computing & Serverless Architectures (AWS, GCP)",
-    "Real-time Data Processing & ETL",
-    "Software Development (Python, SQL)",
+    "Real-time Data Processing & ETL (Apache Airflow, Dask, Pandas)",
+    "Big Data Technologies (Spark, Hadoop)",
+    
+    // Software Development
+    "Software Development (Python, SQL, JavaScript)",
+    "Version Control (Git, GitHub)",
+    "API Development (FastAPI, Flask)",
+    
+    // Data Visualization & Analysis
+    "Statistical Analysis & Data Visualization (Matplotlib, Seaborn, Plotly)",
+    "Exploratory Data Analysis (EDA)",
+    
+    // Project Management & Leadership
     "Project Management & Team Leadership",
+    "Agile Methodologies (Scrum, Kanban)",
+    
+    // Domain Expertise
     "Research & Development in Renewable Energy Systems",
-    "Machine Learning Model Deployment & Monitoring"
+    "Machine Learning Model Deployment & Monitoring (MLflow, BentoML, Modal)"
   ],
   projects: 
     [
