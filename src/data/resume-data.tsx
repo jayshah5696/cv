@@ -84,21 +84,21 @@ export const RESUME_DATA = {
       "description": "Designed and deployed core wind and solar power forecasting capabilities using techniques of XGBoost Informers.\nAchieved 10% MAPE improvement over SOTA with faster lead time to deployment.\nMentored and guided an offshore team of 2 by providing ML systems principles and design-related strategies."
     },
     {
-      "company": "Ensemble Energy",
-      "link": "https://www.ensembleenergy.com/",
+      "company": "SparkCognition (Acquired Ensemble Energy)",
+      "link": "https://www.sparkcognition.com/",
       "badges": ["Palo Alto, California"],
       "title": "Data Scientist",
-      "logo": "EnsembleLogo",
+      "logo": "SparkLogo",
       "start": "2019",
       "end": "2021",
       "description": "Built a predictive maintenance system for wind assets to estimate wind turbine’s remaining useful life (RUL).  Developed processes and systems for automated deployment of the models in production with performance tracking using Airflow. \nArchitected real-time data processing (ETL) pipeline for 5 customers and achieved 60% reduction in processing time utilizing multiprocessing pandas dask pipeline in Python on AWS serverless cloud server. \nPrototyped and productionized statistical tools to provide insight into power production inefficiency and quantify the energy loss."
     },
     {
-      "company": "Ensemble Energy",
-      "link": "https://www.ensembleenergy.com/",
+      "company": "SparkCognition (Acquired Ensemble Energy)",
+      "link": "https://www.sparkcognition.com/",
       "badges": ["Palo Alto, California"],
       "title": "Data Science Intern",
-      "logo": "EnsembleLogo",
+      "logo": "SparkLogo",
       "start": "2018",
       "end": "2018",
       "description": "Implemented a robust anomaly detection system to predict component failure using GBM for 8 components of the wind turbine. \nEstimated bearing type and segmented bearing failures based on 10-min signature profile using K-means clustering to perform RCA. \nDelivered executable insights to customers by performing physics-based statistical data analysis and advanced data visualization utilizing ggplot & matplotlib library in Python that helped to increase 250K $/year in revenue."
