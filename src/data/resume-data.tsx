@@ -19,7 +19,7 @@ export const RESUME_DATA = {
   about:
     "Data Scientist with applied AI skills, dedicated to delivering impactful and scalable solutions.",
   summary:
-    "I am an experienced Data Scientist with over 5 years of experience, focusing on AI innovations for renewable energy. My expertise in predictive maintenance covers wind, solar, and energy storage systems. Beyond technical pursuits, I actively contribute to DataKind’s social impact projects, merging technical expertise with meaningful contributions. With a Master’s in Industrial Systems Engineering, my skill set spans from data engineering to AI, where I lead impactful data science projects.",
+    "I am a seasoned Data Science Leader with over 6 years of experience, specializing in AI innovations for renewable energy and Large Language Models (LLMs). My expertise spans predictive maintenance for wind, solar, and energy storage systems, as well as full-stack data science pipelines. Beyond technical pursuits, I actively contribute to DataKind's social impact projects, merging cutting-edge AI with meaningful societal contributions. With a Master's in Industrial and Systems Engineering, I lead impactful data science projects, driving product innovation and enhancing user experiences in AI-driven solutions.",
   avatarUrl: "https://github.com/jayshah5696/jayshah5696.github.io/blob/29dc4ae4340873d5fbba3de46684db963841bc76/assets/images/Profile.jpg",
   personalWebsiteUrl: "https://jayshah5696.github.io/",
   contact: {
@@ -191,6 +191,15 @@ export const RESUME_DATA = {
         "logo": StreamLensLogo,
         "link": {
           "href": "https://github.com/rohrao/llamaindex_RAGathon"
+        }
+      },
+      {
+        "title": "Gujarati Llama - Fine-tuned Version of LLaMA on Indic Language",
+        "techStack": ["Transformers", "Python", "Hugging Face", "LLaMA", "Fine-tuning"],
+        "description": "Developed a fine-tuned version of the LLaMA model specifically for Gujarati and other Indic languages, enhancing language understanding and generation capabilities for low-resource languages.",
+        "logo": NeuroBuddyLogo,
+        "link": {
+          "href": "https://huggingface.co/jayshah5696/Gujarati-Llama-7b-Base"
         }
       },
       {
