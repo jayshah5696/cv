@@ -140,23 +140,40 @@ export const RESUME_DATA = {
     "Data Science & Machine Learning",
     "Predictive Modeling & Analytics",
     "Natural Language Processing (NLP)",
-    "Deep Learning (TensorFlow, PyTorch)",
+    "Deep Learning (CNN, RNN, LSTM, Transformers, TensorFlow, PyTorch)",
+    "Time Series Forecasting",
+    "Large Language Models (LLM): Fine-tuning, Retrieval-Augmented Generation (RAG), Unsupervised Learning",
     "Model Optimization & Fine-tuning",
     "AI-driven Solution Development",
     
+    // Machine Learning Libraries
+    "PyTorch", 
+    "TensorFlow", 
+    "Scikit-learn", 
+    "Transformers", 
+    "LangChain", 
+    "XGBoost", 
+    "Statsmodels", 
+    "Darts",
+    
     // Data Engineering & Cloud
-    "Cloud Computing & Serverless Architectures (AWS, GCP)",
+    "Cloud Computing & Serverless Architectures (AWS, GCP, Azure)",
     "Real-time Data Processing & ETL (Apache Airflow, Dask, Pandas)",
     "Big Data Technologies (Spark, Hadoop)",
     
     // Software Development
-    "Software Development (Python, SQL, JavaScript)",
+    "Software Development (Python, SQL, Bash, R)",
     "Version Control (Git, GitHub)",
     "API Development (FastAPI, Flask)",
     
     // Data Visualization & Analysis
-    "Statistical Analysis & Data Visualization (Matplotlib, Seaborn, Plotly)",
+    "Statistical Analysis & Data Visualization (Matplotlib, Seaborn, Plotly, Dash, PowerBI)",
     "Exploratory Data Analysis (EDA)",
+    
+    // Other Tools & Technologies
+    "Docker", 
+    "Linux", 
+    "High-Performance Computing (GPU/CPU)",
     
     // Project Management & Leadership
     "Project Management & Team Leadership",
