@@ -19,7 +19,7 @@ export const RESUME_DATA = {
   about:
     "Data Scientist with applied AI skills, dedicated to delivering impactful and scalable solutions.",
   summary:
-    "I am a seasoned Data Science Leader with over 6 years of experience, specializing in AI innovations for renewable energy and Large Language Models (LLMs). My expertise spans predictive maintenance for wind, solar, and energy storage systems, as well as full-stack data science pipelines. Beyond technical pursuits, I actively contribute to DataKind's social impact projects, merging cutting-edge AI with meaningful societal contributions. With a Master's in Industrial and Systems Engineering, I lead impactful data science projects, driving product innovation and enhancing user experiences in AI-driven solutions.",
+    "With over 6 years of experience, I specialize in AI for renewable energy and Large Language Models (LLMs). I excel in predictive maintenance for energy systems and full-stack data science. I also contribute to DataKind's social impact projects, combining AI with societal benefits.",
   avatarUrl: "https://github.com/jayshah5696/jayshah5696.github.io/blob/29dc4ae4340873d5fbba3de46684db963841bc76/assets/images/Profile.jpg",
   personalWebsiteUrl: "https://jayshah5696.github.io/",
   contact: {
@@ -162,7 +162,7 @@ export const RESUME_DATA = {
     "Big Data Technologies (Spark, Hadoop)",
     
     // Software Development
-    "Software Development (Python, SQL, Bash, R)",
+    "Software Development (Python, SQL, Bash, R, JavaScript)",
     "Version Control (Git, GitHub)",
     "API Development (FastAPI, Flask)",
     
