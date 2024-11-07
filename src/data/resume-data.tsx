@@ -64,8 +64,8 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      "company": "SparkCognition",
-      "link": "https://www.sparkcognition.com/",
+      "company": "Avathon",
+      "link": "https://www.avathon.com/",
       "badges": ["Pleasanton, California"],
       "title": "Data Scientist III",
       "logo": "SparkLogo",
@@ -74,8 +74,8 @@ export const RESUME_DATA = {
       "description": "Leading data science endeavor of the renewable product research team to develop and productize analytics capabilities.\nSpearheaded the integration of advanced machine learning models to enhance predictive accuracy.\nCollaborated with cross-functional teams to ensure seamless deployment and scalability of data solutions.\nMentored junior data scientists and provided strategic insights to drive project success."
     },
     {
-      "company": "SparkCognition",
-      "link": "https://www.sparkcognition.com/",
+      "company": "Avathon",
+      "link": "https://www.avathon.com/",
       "badges": ["Sunnyvale, California"],
       "title": "Data Scientist II",
       "logo": "SparkLogo",
@@ -84,8 +84,8 @@ export const RESUME_DATA = {
       "description": "Designed and deployed core wind and solar power forecasting capabilities using techniques of XGBoost Informers.\nAchieved 10% MAPE improvement over SOTA with faster lead time to deployment.\nMentored and guided an offshore team of 2 by providing ML systems principles and design-related strategies."
     },
     {
-      "company": "SparkCognition (Acquired Ensemble Energy)",
-      "link": "https://www.sparkcognition.com/",
+      "company": "Avathon (Acquired Ensemble Energy)",
+      "link": "https://www.avathon.com/",
       "badges": ["Palo Alto, California"],
       "title": "Data Scientist",
       "logo": "SparkLogo",
@@ -94,8 +94,8 @@ export const RESUME_DATA = {
       "description": "Built a predictive maintenance system for wind assets to estimate wind turbine’s remaining useful life (RUL).  Developed processes and systems for automated deployment of the models in production with performance tracking using Airflow. \nArchitected real-time data processing (ETL) pipeline for 5 customers and achieved 60% reduction in processing time utilizing multiprocessing pandas dask pipeline in Python on AWS serverless cloud server. \nPrototyped and productionized statistical tools to provide insight into power production inefficiency and quantify the energy loss."
     },
     {
-      "company": "SparkCognition (Acquired Ensemble Energy)",
-      "link": "https://www.sparkcognition.com/",
+      "company": "Avathon (Acquired Ensemble Energy)",
+      "link": "https://www.avathon.com/",
       "badges": ["Palo Alto, California"],
       "title": "Data Science Intern",
       "logo": "SparkLogo",
