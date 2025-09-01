@@ -6,6 +6,8 @@ Simple web app that renders minimalist CV with print-friendly layout.
 
 Built with Next.js and shadcn/ui, deployed on Vercel.
 
+Requirements: Node.js 22.x (see package.json engines).
+
 # License
 
 [MIT](https://choosealicense.com/licenses/mit/)
