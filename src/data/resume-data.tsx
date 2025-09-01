@@ -14,13 +14,13 @@ import { HuggingFaceIcon } from "@/components/icons/HuggingFace";
 export const RESUME_DATA = {
   name: "Jay Shah",
   initials: "JS",
-  location: "SanFranscio",
-  locationLink: "https://www.google.com/maps/place/SanFranscico",
+  location: "Sunnyvale, CA",
+  locationLink: "https://www.google.com/maps/place/Sunnyvale,+CA",
   about:
-    "Data Scientist with applied AI skills, dedicated to delivering impactful and scalable solutions.",
+    "Lead Data Scientist building LLM/RAG systems, agent platforms, and MLOps at enterprise scale.",
   summary:
-    "With over 6 years of experience, I specialize in AI for renewable energy and Large Language Models (LLMs). I excel in predictive maintenance for energy systems and full-stack data science. I also contribute to DataKind's social impact projects, combining AI with societal benefits.",
-  avatarUrl: "https://github.com/jayshah5696/jayshah5696.github.io/blob/29dc4ae4340873d5fbba3de46684db963841bc76/assets/images/Profile.jpg",
+    "Lead Data Scientist shipping LLM/RAG, agentic systems, and MLOps products in enterprise SaaS. Expert in Python, AWS, and GCP with crisp communication and cross-team leadership from roadmap to production.",
+  avatarUrl: "https://raw.githubusercontent.com/jayshah5696/jayshah5696.github.io/main/assets/images/Profile.jpg",
   personalWebsiteUrl: "https://jayshah5696.github.io/",
   contact: {
     email: "jayshah5696@gmail.com",
@@ -51,13 +51,13 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Texas A&M University",
-      degree: "Master's Degree in Industrial and Systems Engineering",
+      degree: "M.S. in Industrial and Systems Engineering (minor Applied Statistics)",
       start: "2017",
       end: "2019",
     },
     {
-      school: "Gujarat State University",
-      degree: "Bachelor's Degree in Mechanical Engineering",
+      school: "Gujarat Technological University",
+      degree: "B.E. in Mechanical Engineering",
       start: "2013",
       end: "2017",
     }
@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       "logo": "SparkLogo",
       "start": "2022",
       "end": "Present",
-      "description": "Leading data science endeavor of the renewable product research team to develop and productize analytics capabilities.\nSpearheaded the integration of advanced machine learning models to enhance predictive accuracy.\nCollaborated with cross-functional teams to ensure seamless deployment and scalability of data solutions.\nMentored junior data scientists and provided strategic insights to drive project success."
+      "description": "Led foundation-model MLOps platform; cut release time 45% and increased model adoption.\nArchitected agent platform with MCP tools to spin up domain agents in under 5 minutes; now powering 20+ workflows.\nBuilt LLM interface integrating asset data, enabling reporting and task automation.\nLaunched cross-site solar-storage autoencoder anomaly detection to predict failures and performance issues, saving >$500k.\nShipped RAG compliance agent, reducing violations 10% and automating audit preparation for energy domains.\nReduced false positives 25% by ranking predictive alerts and next-best actions with Bayesian analysis."
     },
     {
       "company": "Avathon",
@@ -81,7 +81,7 @@ export const RESUME_DATA = {
       "logo": "SparkLogo",
       "start": "2021",
       "end": "2021",
-      "description": "Designed and deployed core wind and solar power forecasting capabilities using techniques of XGBoost Informers.\nAchieved 10% MAPE improvement over SOTA with faster lead time to deployment.\nMentored and guided an offshore team of 2 by providing ML systems principles and design-related strategies."
+      "description": "Deployed XGBoost-based solar/wind forecasting service; lowered MAPE 10% over baseline.\nMentored offshore ML team on systems design and best practices; boosted delivery speed 25%.\nDefined ML architecture standards adopted by 3 squads to streamline handoffs and deployments."
     },
     {
       "company": "Avathon (Acquired Ensemble Energy)",
@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       "logo": "SparkLogo",
       "start": "2019",
       "end": "2021",
-      "description": "Built a predictive maintenance system for wind assets to estimate wind turbine’s remaining useful life (RUL).  Developed processes and systems for automated deployment of the models in production with performance tracking using Airflow. \nArchitected real-time data processing (ETL) pipeline for 5 customers and achieved 60% reduction in processing time utilizing multiprocessing pandas dask pipeline in Python on AWS serverless cloud server. \nPrototyped and productionized statistical tools to provide insight into power production inefficiency and quantify the energy loss."
+      "description": "Built wind-turbine remaining useful life (RUL) model (92% accuracy) using industrial sensor and fault data.\nAutomated model deployment and tracking using Airflow, Docker, Serverless, and Terraform on AWS/GCP.\nDesigned Airflow + AWS Lambda ETL reducing latency 60% across five clients.\nPrototyped statistical tools to quantify power production inefficiency and energy loss."
     },
     {
       "company": "Avathon (Acquired Ensemble Energy)",
@@ -101,7 +101,7 @@ export const RESUME_DATA = {
       "logo": "SparkLogo",
       "start": "2018",
       "end": "2018",
-      "description": "Implemented a robust anomaly detection system to predict component failure using GBM for 8 components of the wind turbine. \nEstimated bearing type and segmented bearing failures based on 10-min signature profile using K-means clustering to perform RCA. \nDelivered executable insights to customers by performing physics-based statistical data analysis and advanced data visualization utilizing ggplot & matplotlib library in Python that helped to increase 250K $/year in revenue."
+      "description": "Implemented anomaly detection to predict component failures using GBM for 8 wind-turbine components.\nEstimated bearing types and segmented bearing failures from 10-minute signatures using K-means clustering; delivered actionable insights."
     },
     {
       "company": "Texas A&M University",
@@ -193,13 +193,23 @@ export const RESUME_DATA = {
         "href": "https://github.com/jayshah5696/pravah"
         },
       },
-      {"title":'NueroBuddy: A Personalized Chatbot',
+      {"title":'NeuroBuddy: A Personalized Chatbot',
       "techStack":["streamlit",'mistral-api','whisper-models'],
       "description":"A personalized chatbot that provides mental health support and resources to users, leveraging advanced NLP models and AI-driven analytics. The project was developed with Mistral AI and Whisper Models.",
       "logo": NeuroBuddyLogo,
       "link": {
         "href": "https://github.com/jayshah5696/nd-empowerment"
         },
+      },
+      {
+        "title": "AgentEval Suite — Specialized Evals for Production Agents",
+        "techStack": ["Python", "LangGraph", "RAG", "LLM-as-Judge", "CI"],
+        "description": "Scenario-driven evaluation harness for domain agents: synthetic task generation, tool-usage tracing, success/latency metrics, and judge models; CI-friendly to prevent regressions.",
+      },
+      {
+        "title": "Policy Compliance Tracker (LLM + docETL)",
+        "techStack": ["LLM", "docETL", "RAG", "Vector DB", "Reports"],
+        "description": "Tracks regulatory compliance across policy docs, SOPs, and audit logs; ingests with docETL, normalizes, and runs retrieval + rule checking with explainable outputs and audit-ready reports.",
       },
       {
         "title": "StreamLens: Revolutionizing Video Content Interaction with AI",
@@ -243,7 +253,7 @@ export const RESUME_DATA = {
         "description": "Performed comprehensive data analysis on New York cab data to uncover insights and patterns, associated with Texas A&M University.",
         "logo": NYCabDataLogo,
         "link": {
-          "href": "https://github.com/jayshah5696/DataOpen-2018https://github.com/jayshah5696/DataOpen-2018"
+          "href": "https://github.com/jayshah5696/DataOpen-2018"
         }
       },
       {
