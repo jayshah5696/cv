@@ -21,9 +21,9 @@ export const RESUME_DATA = {
   summary:
     "Lead Data Scientist shipping LLM/RAG, agentic systems, and MLOps products in enterprise SaaS. Expert in Python, AWS, and GCP with crisp communication and cross-team leadership from roadmap to production.",
   avatarUrl: "https://raw.githubusercontent.com/jayshah5696/jayshah5696.github.io/main/assets/images/Profile.jpg",
-  personalWebsiteUrl: "https://jayshah5696.github.io/",
+  personalWebsiteUrl: "https://jayshah.dev/",
   contact: {
-    email: "jayshah5696@gmail.com",
+    email: "contact@jayshah.dev",
     tel: "+19792133271",
     social: [
       {
