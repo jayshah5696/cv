@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { PrintDrawer } from "@/components/print-drawer";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -201,6 +202,7 @@ export default function Page() {
           })),
         ]}
       />
+      <PrintDrawer />
     </main>
   );
 }

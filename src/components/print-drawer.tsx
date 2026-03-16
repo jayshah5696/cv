@@ -17,15 +17,15 @@ export const PrintDrawer = () => {
   return (
     <Drawer>
       <DrawerTrigger asChild>
-        <Button className="fixed bottom-4 right-4 h-16 w-16 rounded-full shadow-2xl print:hidden">
+        <Button aria-label="Print resume" className="fixed bottom-4 right-4 h-16 w-16 rounded-full shadow-2xl print:hidden">
           <PrinterIcon />
         </Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm">
           <DrawerHeader>
-            <DrawerTitle>Move Goal</DrawerTitle>
-            <DrawerDescription>Set your daily activity goal.</DrawerDescription>
+            <DrawerTitle>Print Resume</DrawerTitle>
+            <DrawerDescription>Would you like to print this resume or save it as a PDF?</DrawerDescription>
           </DrawerHeader>
           <div className="p-4 pb-0"></div>
           <DrawerFooter>
