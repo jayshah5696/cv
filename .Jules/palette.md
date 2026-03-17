@@ -1,3 +1,6 @@
 ## 2024-05-24 - Missing ARIA Labels in Icon-Only Buttons
 **Learning:** The pattern of using `Button asChild` wrappers for icon-only `<a>` tags in this app often results in missing `aria-label` attributes on the actual interactive elements, making them inaccessible to screen readers.
 **Action:** When adding or reviewing icon-only links or buttons, always ensure they have descriptive `aria-label` attributes to explicitly state their destination or action.
+## 2023-10-27 - Icon-only Buttons Require Synchronized Tooltips and ARIA Labels
+**Learning:** Sighted users often struggle to identify the purpose of generic or unfamiliar icons, while screen readers require unambiguous labels. Providing `aria-label` alone leaves sighted users without guidance. Furthermore, generic toggle labels like "Toggle theme" lack context about the resulting action.
+**Action:** Consistently pair `aria-label` with a matching `title` attribute on icon-only buttons to provide a native hover tooltip. For toggle buttons, dynamically update both attributes to describe the *resulting* action (e.g., "Switch to light theme"). Always add `aria-hidden="true"` to the decorative icon itself to prevent redundant or confusing screen reader announcements.

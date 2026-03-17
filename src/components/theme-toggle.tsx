@@ -12,11 +12,12 @@ export function ThemeToggle() {
     <Button
       variant="outline"
       size="icon"
-      aria-label="Toggle theme"
+      title={`Switch to ${isDark ? "light" : "dark"} theme`}
+      aria-label={`Switch to ${isDark ? "light" : "dark"} theme`}
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className="h-8 w-8"
     >
-      {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+      {isDark ? <Sun className="h-4 w-4" aria-hidden="true" /> : <Moon className="h-4 w-4" aria-hidden="true" />}
     </Button>
   );
 }
