@@ -31,7 +31,7 @@ export default function Page() {
                 href={RESUME_DATA.locationLink}
                 target="_blank"
               >
-                <GlobeIcon className="h-3 w-3" />
+                <GlobeIcon className="h-3 w-3" aria-hidden="true" />
                 {RESUME_DATA.location}
               </a>
             </p>
@@ -43,8 +43,8 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`} aria-label="Send email">
-                    <MailIcon className="h-4 w-4" />
+                  <a href={`mailto:${RESUME_DATA.contact.email}`} title="Send email" aria-label="Send email">
+                    <MailIcon className="h-4 w-4" aria-hidden="true" />
                   </a>
                 </Button>
               ) : null}
@@ -55,8 +55,8 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`} aria-label="Call phone number">
-                    <PhoneIcon className="h-4 w-4" />
+                  <a href={`tel:${RESUME_DATA.contact.tel}`} title="Call phone number" aria-label="Call phone number">
+                    <PhoneIcon className="h-4 w-4" aria-hidden="true" />
                   </a>
                 </Button>
               ) : null}
@@ -68,8 +68,8 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url} aria-label={`${social.name} profile`}>
-                    <social.icon className="h-4 w-4" />
+                  <a href={social.url} title={`${social.name} profile`} aria-label={`${social.name} profile`}>
+                    <social.icon className="h-4 w-4" aria-hidden="true" />
                   </a>
                 </Button>
               ))}
