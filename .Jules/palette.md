@@ -1,3 +1,3 @@
-## 2024-05-24 - Missing ARIA Labels in Icon-Only Buttons
-**Learning:** The pattern of using `Button asChild` wrappers for icon-only `<a>` tags in this app often results in missing `aria-label` attributes on the actual interactive elements, making them inaccessible to screen readers.
-**Action:** When adding or reviewing icon-only links or buttons, always ensure they have descriptive `aria-label` attributes to explicitly state their destination or action.
+## 2024-05-14 - Interactive Keyboard Shortcut Hints
+**Learning:** Keyboard shortcut hints displayed as static text (like 'Press ⌘J') act as frustrating touch-screen dead ends on mobile devices or for users unfamiliar with the shortcuts.
+**Action:** Always wrap global keyboard shortcut hints in interactive elements (like a `<button>`) with an `onClick` handler that triggers the same action as the shortcut, along with appropriate hover, focus, and ARIA attributes.
