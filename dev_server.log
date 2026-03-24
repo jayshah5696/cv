@@ -1,0 +1,21 @@
+
+> web-cv@0.1.0 dev /app
+> next dev
+
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3000
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+npm warn Unknown env config "verify-deps-before-run". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn Unknown env config "npm-globalconfig". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn Unknown env config "_jsr-registry". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+ ✓ Ready in 6s
+ ○ Compiling / ...
+ ✓ Compiled / in 10.1s (734 modules)
+ ✓ Compiled in 1179ms (341 modules)
+ ✓ Compiled in 734ms (725 modules)
+[?25h
