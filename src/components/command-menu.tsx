@@ -33,13 +33,17 @@ export const CommandMenu = ({ links }: Props) => {
 
   return (
     <>
-      <p className="fixed bottom-0 left-0 right-0 border-t bg-background p-1 text-center text-sm text-muted-foreground print:hidden">
+      <button
+        onClick={() => setOpen(true)}
+        aria-label="Open command menu"
+        className="fixed bottom-0 left-0 right-0 border-t bg-background p-1 text-center text-sm text-muted-foreground print:hidden hover:bg-muted/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 transition-colors"
+      >
         Press{" "}
         <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
           <span className="text-xs">⌘</span>J
         </kbd>{" "}
         to open the command menu
-      </p>
+      </button>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
