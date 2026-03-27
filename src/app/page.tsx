@@ -27,7 +27,7 @@ export default function Page() {
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
                 href={RESUME_DATA.locationLink}
                 target="_blank"
               >
@@ -110,7 +110,7 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
+                      <a className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm" href={work.link}>
                         {work.company}
                       </a>
 
