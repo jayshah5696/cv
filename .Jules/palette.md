@@ -5,3 +5,7 @@
 ## 2024-05-25 - Unclickable Keyboard Shortcut Hints
 **Learning:** Global keyboard shortcut hints (like "Press ⌘J to open the command menu") rendered as plain text (`<p>`) are inaccessible and unusable on touch devices without physical keyboards, and cannot be reached via standard keyboard navigation.
 **Action:** Always wrap keyboard shortcut hints in interactive elements like `<button>` with appropriate `onClick` handlers, `aria-label`, and hover/focus styles to ensure they are fully interactive across all device types and accessible to screen readers.
+
+## 2024-05-26 - Missing Accessible Titles in Radix Dialogs
+**Learning:** Radix UI Dialogs (such as those used for CommandMenu) require an accessible title and description to prevent screen reader warnings and improve context for assistive technologies.
+**Action:** Always provide `DialogTitle` and `DialogDescription` components inside a `DialogContent`. If these shouldn't be visually visible, use the Tailwind `sr-only` class to hide them while keeping them accessible.
