@@ -5,3 +5,7 @@
 ## 2024-05-25 - Unclickable Keyboard Shortcut Hints
 **Learning:** Global keyboard shortcut hints (like "Press ⌘J to open the command menu") rendered as plain text (`<p>`) are inaccessible and unusable on touch devices without physical keyboards, and cannot be reached via standard keyboard navigation.
 **Action:** Always wrap keyboard shortcut hints in interactive elements like `<button>` with appropriate `onClick` handlers, `aria-label`, and hover/focus styles to ensure they are fully interactive across all device types and accessible to screen readers.
+
+## 2024-05-26 - Hidden Placeholder Copy in Interactive Components
+**Learning:** Boilerplate code from UI component libraries (like Shadcn/Radix drawers or dialogs) often contains generic placeholder copy (e.g., "Move Goal" or "Set your daily activity goal.") that is only revealed upon user interaction.
+**Action:** When adding or auditing complex interactive components (drawers, dialogs, popovers), always manually verify all expanded states and nested content to ensure placeholder text is replaced with contextually appropriate and helpful copy.
