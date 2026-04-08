@@ -1,3 +1,6 @@
 ## 2024-05-18 - Replacing Boilerplate Copy in Nested Components
 **Learning:** Complex interactive components (like Drawers, Dialogs, Popovers) imported from UI libraries (such as shadcn/ui or Radix) often come with boilerplate placeholder text (e.g., "Move Goal"). This placeholder text can easily slip into production if not explicitly checked and replaced, leading to a confusing user experience.
 **Action:** Always verify the expanded state and nested content of any newly added or existing complex component. Ensure that `Title` and `Description` components within these elements have contextually appropriate and helpful text replacing any library defaults.
+## $(date +%Y-%m-%d) - Accessible Titles for Headless UI Dialogs
+**Learning:** Headless UI components like Radix's `Dialog` (often wrapped by Shadcn/CMDK for Command Menus) require an explicitly defined `DialogTitle` and `DialogDescription` to be accessible to screen readers. If the design does not naturally include a visible title, omitting these elements will cause screen reader warnings and reduce accessibility.
+**Action:** Always include a `DialogTitle` and `DialogDescription` within `DialogContent`. Use Tailwind's `sr-only` class to hide them visually if the design does not require them to be visible on screen.
