@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       start: "Feb 2026",
       end: "Present",
       description:
-        "Working on the Autonomous Revenue Engine: agent evaluation, Agentic RAG, and B2B intent intelligence pipelines.",
+        "Trained foundational models with custom embeddings to power B2B intent intelligence at enterprise scale.\nShipped model explainability in production to provide transparent predictions for sales and marketing workflows.\nArchitected a LLM agent evaluation framework adopted across the engineering and product organizations to prevent regressions.\nBuilt internal agents for key revenue acceleration use cases.\nDesigned and developed a contextual knowledge graph to link enterprise accounts, intent signals, and buyer personas.",
     },
     {
       company: "Avathon",
@@ -340,6 +340,60 @@ export const RESUME_DATA = {
       logo: Phase1AnalysisLogo,
       link: {
         href: "https://github.com/jayshah5696/Phase1_Analysis",
+      },
+    },
+    {
+      title: "Arka — Config-Driven Synthetic Data Generation",
+      techStack: ["Python", "YAML", "SQLite", "MinHash", "LSH", "Evol-Instruct"],
+      description:
+        "Config-driven pipeline for generating, deduplicating, and filtering SFT datasets. Supports multi-source ingestion, Evol-Instruct, MinHash+LSH near-deduplication, and SQLite checkpoints for resumability.",
+      link: {
+        href: "https://github.com/jayshah5696/arka",
+      },
+    },
+    {
+      title: "Humanizer-RL — AI Humanness Scorer and RL Pipeline",
+      techStack: ["Reinforcement Learning", "Gemma 4 E2B", "DAPO", "Ridge Scorer", "Python"],
+      description:
+        "Two-layer AI text humanness scorer and RL training pipeline. Distilled a Ridge classifier from LLM annotations to create an RL reward function (hosted at humanize-reward.lakebed.app) for fine-tuning Gemma 4 via DAPO.",
+      link: {
+        href: "https://github.com/jayshah5696/humanize-rl",
+      },
+    },
+    {
+      title: "Session Aggregator",
+      techStack: ["Python", "SQLite", "TUI", "Semantic Search"],
+      description:
+        "Unified powerhouse for AI coding history. Syncs, searches, and exports sessions from across all AI development tools with a TUI and semantic search.",
+      link: {
+        href: "https://github.com/jayshah5696/session-aggregator",
+      },
+    },
+    {
+      title: "Medha IDE",
+      techStack: ["FastAPI", "Vite", "DuckDB", "LangGraph", "SQL"],
+      description:
+        "A local-first SQL IDE for flat files. Leverages DuckDB, FastAPI, and Vite, featuring LangGraph for semantic query generation.",
+      link: {
+        href: "https://github.com/jayshah5696/medha",
+      },
+    },
+    {
+      title: "Entity Resolution POC",
+      techStack: ["ML", "Elasticsearch", "MRL", "Entity Resolution"],
+      description:
+        "High-scale entity resolution comparing dense embedding models against BM25 with Matryoshka Rep. Learning (MRL) for efficient ANN retrieval.",
+      link: {
+        href: "https://github.com/jayshah5696/entity-resolution-poc",
+      },
+    },
+    {
+      title: "Pi Agent Extensions",
+      techStack: ["AI Agents", "TypeScript", "Developer Tools"],
+      description:
+        "Custom extensions for the Pi coding agent — handoff, ask-user, sessions, and more.",
+      link: {
+        href: "https://github.com/jayshah5696/pi-agent-extensions",
       },
     },
   ],
