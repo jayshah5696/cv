@@ -17,9 +17,9 @@ export const RESUME_DATA = {
   location: "Sunnyvale, CA",
   locationLink: "https://www.google.com/maps/place/Sunnyvale,+CA",
   about:
-    "Senior Data Scientist building LLM/RAG systems, agent evaluation, and B2B intent intelligence at enterprise scale.",
+    "Senior Data Scientist building production AI applications and foundational model systems with robust evaluation at scale.",
   summary:
-    "Senior Data Scientist at 6sense working on the Autonomous Revenue Engine, B2B intent intelligence, and Agentic RAG pipelines. Expert in agent evaluation frameworks, model explainability, Python, AWS, and GCP with cross-team leadership from roadmap to production.",
+    "Senior Data Scientist at 6sense building production AI applications, foundational model systems, and agent evaluation frameworks. Expert in model explainability, Python, AWS, and GCP with cross-team leadership from roadmap to production.",
   avatarUrl:
     "https://raw.githubusercontent.com/jayshah5696/jayshah5696.github.io/main/assets/images/Profile.jpg",
   personalWebsiteUrl: "https://jayshah.dev/",
