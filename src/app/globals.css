@@ -78,3 +78,19 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+@media print {
+  /* Prevent layout clipping during print */
+  body, html, main {
+    overflow: visible !important;
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  /* Avoid splitting project cards and experience blocks in half across pages */
+  section, [class*="rounded-lg bg-card"], .card {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+}
