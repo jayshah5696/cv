@@ -1,3 +1,4 @@
+import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -22,7 +23,7 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <p className="max-w-md text-pretty text-sm text-muted-foreground leading-relaxed">
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -63,13 +64,25 @@ export default function Page() {
                 </Button>
               ))}
             </div>
-            <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
+            <div className="hidden flex-wrap gap-x-3 gap-y-1 font-mono text-xs text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
-                <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                  <span className="underline">{RESUME_DATA.contact.email}</span>
+                <a href={`mailto:${RESUME_DATA.contact.email}`} className="hover:underline">
+                  {RESUME_DATA.contact.email}
                 </a>
               ) : null}
-
+              {RESUME_DATA.contact.email && RESUME_DATA.contact.social.length > 0 ? (
+                <span className="text-muted-foreground/50">|</span>
+              ) : null}
+              {RESUME_DATA.contact.social.map((social, index) => (
+                <React.Fragment key={social.name}>
+                  <a href={social.url} className="hover:underline">
+                    {social.url.replace("https://", "").replace("www.", "")}
+                  </a>
+                  {index < RESUME_DATA.contact.social.length - 1 ? (
+                    <span className="text-muted-foreground/50">|</span>
+                  ) : null}
+                </React.Fragment>
+              ))}
             </div>
           </div>
 
@@ -83,7 +96,7 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
+          <p className="text-pretty text-sm text-muted-foreground leading-relaxed">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -116,11 +129,11 @@ export default function Page() {
                     </div>
                   </div>
 
-                  <h4 className="font-mono text-sm leading-none">
+                  <h4 className="text-sm leading-none text-muted-foreground mt-1">
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs whitespace-pre-line">
+                <CardContent className="mt-2 text-xs whitespace-pre-line font-sans leading-normal">
                   {work.description}
                 </CardContent>
               </Card>
@@ -142,17 +155,24 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2 font-sans">{education.degree}</CardContent>
               </Card>
             );
           })}
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
+          <div className="space-y-4">
+            {RESUME_DATA.skills.map((skillGroup) => (
+              <div key={skillGroup.category} className="space-y-1.5">
+                <h3 className="text-sm font-semibold text-foreground/80">{skillGroup.category}</h3>
+                <div className="flex flex-wrap gap-1">
+                  {skillGroup.items.map((skill) => (
+                    <Badge key={skill} className="font-mono text-[11px]">{skill}</Badge>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </Section>
 
@@ -166,7 +186,7 @@ export default function Page() {
                   title={project.title}
                   description={project.description}
                   tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
+                  link={project.link?.href}
                 />
               );
             })}

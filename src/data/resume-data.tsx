@@ -10,8 +10,9 @@ import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 import { HuggingFaceIcon } from "@/components/icons/HuggingFace";
+import { ResumeData } from "@/types/resume";
 
-export const RESUME_DATA = {
+export const RESUME_DATA: ResumeData = {
   name: "Jay Shah",
   initials: "JS",
   location: "Sunnyvale, CA",
@@ -154,55 +155,59 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    // Data Science & Machine Learning
-    "Agentic Systems",
-    "Agent Evaluation",
-    "MCP (Model Context Protocol)",
-    "Data Science & Machine Learning",
-    "Predictive Modeling & Analytics",
-    "Natural Language Processing (NLP)",
-    "Deep Learning (CNN, RNN, LSTM, Transformers, TensorFlow, PyTorch)",
-    "Time Series Forecasting",
-    "Large Language Models (LLM): Fine-tuning, Retrieval-Augmented Generation (RAG), Unsupervised Learning",
-    "Model Optimization & Fine-tuning",
-    "AI-driven Solution Development",
-
-    // Machine Learning Libraries
-    "PyTorch",
-    "TensorFlow",
-    "Scikit-learn",
-    "Transformers",
-    "LangChain",
-    "XGBoost",
-    "DSPy",
-    "ColBERT",
-
-    // Data Engineering & Cloud
-    "Cloud Computing & Serverless Architectures (AWS, GCP, Azure)",
-    "Real-time Data Processing & ETL (Apache Airflow, Dask, Pandas)",
-    "Big Data Technologies (Spark)",
-
-    // Software Development
-    "Software Development (Python, SQL, Bash, JavaScript)",
-    "Version Control (Git, GitHub)",
-    "API Development (FastAPI, Flask)",
-
-    // Data Visualization & Analysis
-    "Statistical Analysis & Data Visualization (Matplotlib, Seaborn, Plotly, Dash, PowerBI)",
-    "Exploratory Data Analysis (EDA)",
-
-    // Other Tools & Technologies
-    "Docker",
-    "Linux",
-    "High-Performance Computing (GPU/CPU)",
-
-    // Project Management & Leadership
-    "Project Management & Team Leadership",
-    "Agile Methodologies (Scrum, Kanban)",
-
-    // Domain Expertise
-    "Research & Development in Renewable Energy Systems",
-    "Machine Learning Model Deployment & Monitoring (MLflow, BentoML, Modal)",
+    {
+      category: "AI & Foundational Systems",
+      items: [
+        "Agentic Systems",
+        "Agent Evaluation",
+        "MCP (Model Context Protocol)",
+        "Large Language Models (LLM): Fine-tuning, RAG, Unsupervised",
+        "Deep Learning (Transformers, CNN, RNN, LSTM)",
+        "Natural Language Processing (NLP)",
+        "Predictive Modeling & Analytics",
+        "Time Series Forecasting",
+        "Model Optimization & Fine-tuning",
+        "AI-driven Solution Development",
+      ],
+    },
+    {
+      category: "Libraries & ML Tools",
+      items: [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "Transformers",
+        "LangChain",
+        "XGBoost",
+        "DSPy",
+        "ColBERT",
+        "Data Visualization (Plotly, Seaborn, Matplotlib, Dash)",
+        "Exploratory Data Analysis (EDA)",
+      ],
+    },
+    {
+      category: "MLOps & Data",
+      items: [
+        "Cloud Computing (AWS, GCP, Azure)",
+        "Real-time Data Processing & ETL (Airflow, Dask, Pandas)",
+        "Big Data Technologies (Spark)",
+        "Model Deployment & Monitoring (MLflow, BentoML, Modal)",
+        "Docker",
+        "Linux",
+        "High-Performance Computing (GPU/CPU)",
+      ],
+    },
+    {
+      category: "Software Engineering",
+      items: [
+        "Python, SQL, Bash, JavaScript",
+        "Version Control (Git, GitHub)",
+        "API Development (FastAPI, Flask)",
+        "Project Management & Team Leadership",
+        "Agile Methodologies (Scrum, Kanban)",
+        "R&D in Renewable Energy Systems",
+      ],
+    },
   ],
   projects: [
     {
@@ -397,4 +402,4 @@ export const RESUME_DATA = {
       },
     },
   ],
-} as const;
+};
