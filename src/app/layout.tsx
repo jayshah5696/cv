@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase:
     typeof process !== "undefined" && process.env.NEXT_PUBLIC_SITE_URL
       ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
-      : new URL("https://jayshah5696.github.io"),
+      : new URL("https://cv.jayshah.dev"),
   title: {
     default: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
     template: `%s | ${RESUME_DATA.name}`,
