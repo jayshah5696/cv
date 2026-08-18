@@ -1,13 +1,22 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+# Jay Shah's CV
 
-# Minimalist CV
+A print-friendly CV built with Next.js, React, TypeScript, Tailwind CSS, and shadcn/ui.
 
-Simple web app that renders minimalist CV with print-friendly layout.
+The content lives in [`src/data/resume-data.tsx`](src/data/resume-data.tsx). The site includes current work, selected production AI projects, research projects, and links to public repositories and demos.
 
-Built with Next.js and shadcn/ui, deployed on Vercel.
+Live version: [cv-zeta-puce.vercel.app](https://cv-zeta-puce.vercel.app)
 
-Requirements: Node.js 22.x (see package.json engines).
+## Development
 
-# License
+Requires Node.js 22.x.
+
+```bash
+npm install
+npm run dev
+```
+
+Create a production build with `npm run build`.
+
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
