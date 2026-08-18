@@ -27,7 +27,13 @@ export const metadata: Metadata = {
   authors: [{ name: RESUME_DATA.name, url: RESUME_DATA.personalWebsiteUrl }],
   creator: RESUME_DATA.name,
   alternates: { canonical: "/" },
-  icons: { icon: "/favicon.ico", apple: "/apple-icon.png" },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: `${RESUME_DATA.name} — ${RESUME_DATA.about}`,
     description: RESUME_DATA.summary,
