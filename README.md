@@ -1,21 +1,58 @@
 # Jay Shah's CV
 
-A print-friendly CV built with Next.js, React, TypeScript, Tailwind CSS, and shadcn/ui.
+A web-based CV for Jay Shah, a Senior Data Scientist building production AI applications, foundational model systems, and evaluation frameworks.
 
-The content lives in [`src/data/resume-data.tsx`](src/data/resume-data.tsx). The site includes current work, selected production AI projects, research projects, and links to public repositories and demos.
+[View the live CV](https://cv.jayshah.dev) · [Visit jayshah.dev](https://jayshah.dev)
 
-Live version: [cv-zeta-puce.vercel.app](https://cv-zeta-puce.vercel.app)
+## Features
+
+- Responsive CV layout
+- Print-friendly formatting
+- Light and dark themes
+- Command menu navigation
+- Work experience, education, skills, and selected projects
+- Links to public profiles, repositories, and project demos
+
+## Tech stack
+
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Vercel Analytics
 
 ## Development
 
 Requires Node.js 22.x.
 
+Install dependencies:
+
 ```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-Create a production build with `npm run build`.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Run the production server:
+
+```bash
+npm start
+```
+
+The CV content lives in [`src/data/resume-data.tsx`](src/data/resume-data.tsx).
 
 ## License
 
