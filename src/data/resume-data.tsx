@@ -18,9 +18,9 @@ export const RESUME_DATA: ResumeData = {
   location: "Sunnyvale, CA",
   locationLink: "https://www.google.com/maps/place/Sunnyvale,+CA",
   about:
-    "Senior Data Scientist building production AI applications and foundational model systems with robust evaluation at scale.",
+    "Senior Machine Learning Engineer building production AI applications and foundational model systems with robust evaluation at scale.",
   summary:
-    "Senior Data Scientist at 6sense building production AI applications, foundational model systems, and agent evaluation frameworks. Expert in model explainability, Python, AWS, and GCP with cross-team leadership from roadmap to production.",
+    "Senior Machine Learning Engineer at 6sense building production AI applications, foundational model systems, and agent evaluation frameworks. Expert in model explainability, Python, AWS, and GCP with cross-team leadership from roadmap to production.",
   avatarUrl:
     "https://raw.githubusercontent.com/jayshah5696/jayshah5696.github.io/main/assets/images/Profile.jpg",
   personalWebsiteUrl: "https://jayshah.dev/",
@@ -69,7 +69,7 @@ export const RESUME_DATA: ResumeData = {
       company: "6sense",
       link: "https://6sense.com/",
       badges: ["San Francisco, CA"],
-      title: "Senior Data Scientist",
+      title: "Senior Machine Learning Engineer",
       logo: "SixSenseLogo",
       start: "Feb 2026",
       end: "Present",

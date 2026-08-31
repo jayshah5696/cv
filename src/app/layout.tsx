@@ -18,6 +18,8 @@ export const metadata: Metadata = {
   description: RESUME_DATA.summary,
   keywords: [
     "Jay Shah",
+    "Machine Learning Engineer",
+    "Senior Machine Learning Engineer",
     "Data Scientist",
     "LLM",
     "RAG",
