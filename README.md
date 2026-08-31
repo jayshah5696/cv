@@ -1,6 +1,6 @@
 # Jay Shah's CV
 
-A web-based CV for Jay Shah, a Senior Data Scientist building production AI applications, foundational model systems, and evaluation frameworks.
+A web-based CV for Jay Shah, a Senior Machine Learning Engineer building production AI applications, foundational model systems, and evaluation frameworks.
 
 [View the live CV](https://cv.jayshah.dev) · [Visit jayshah.dev](https://jayshah.dev)
 
