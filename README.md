@@ -29,13 +29,13 @@ Requires Node.js 22.x.
 Install dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 Start the development server:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -43,13 +43,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 Create a production build:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Run the production server:
 
 ```bash
-npm start
+pnpm start
 ```
 
 The CV content lives in [`src/data/resume-data.tsx`](src/data/resume-data.tsx).
